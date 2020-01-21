@@ -25,7 +25,7 @@
       <div class="won" v-if="win">
         <h2>Congratulations!</h2>
         <p>Game finished in {{ clicks }} clicks.</p>
-        <button @click="resetGame">Nova igra</button>
+        <button @click="resetGame">New game</button>
       </div>
     </transition>
   </div>
